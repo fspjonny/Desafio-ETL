@@ -15,7 +15,7 @@ Criar uma API com no mínimo 3 endpoints, com as seguintes funcionalidades:
 
 Para executar este projeto, você precisará ter instalado:
 
-- Docker Desktop (executar os containers)
+- Docker / Docker Desktop (executar os containers)
 - Python ^3.12
 - Poetry ^1.8.3 (Gerenciador de pacotes do Python)
 
@@ -39,11 +39,11 @@ Para executar este projeto, você precisará ter instalado:
 1. Clone o repositório:
 
 ```bash
-git https://github.com/fspjonny/desafio-desenvolvedor.git
+git https://github.com/fspjonny/Desafio-ETL.git
 ```
 ```bash
 Vá para o diretório da aplicação:
-cd proj_api
+cd Desafio-ETL
 ```
 
 2. Crie um ambiente virtual com o Poetry:
@@ -56,6 +56,11 @@ poetry shell
 
 ```
 poetry install
+```
+4. Se por acaso voce quiser usar as dependências de desenvolvimentoI, use o comando:
+
+```
+poetry install --with dev
 ```
 
 ## 🚀 Uso:
@@ -157,3 +162,13 @@ Método: `POST`
 
 - `status`: Status.
 - `token`: Token de autorização.
+
+
+## **✉️Contato**
+
+Em caso de dúvidas ou problemas, entre em contato:  
+- **E-mail**: [fabio.silvapedro@gmail.com](mailto:fabio.silvapedro@gmail.com)
+
+---
+
+## **👋😃 Obrigado por visitar**
